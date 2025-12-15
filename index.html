@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parma Accende il Futuro</title>
+    <style>
+        :root {
+            --primary: #D97706; /* Warm Orange */
+            --secondary: #1F2937; /* Dark Grey */
+            --accent: #F59E0B; /* Yellow/Sun */
+            --bg: #F3F4F6;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--secondary);
+            margin: 0;
+            background-color: var(--bg);
+        }
+        header {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .hero {
+            background: linear-gradient(135deg, #D97706 0%, #B45309 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .icon-large {
+            font-size: 40px;
+            display: block;
+            margin-bottom: 15px;
+        }
+        h2 { color: var(--primary); }
+        .highlight-box {
+            background-color: #FEF3C7;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .remote-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .remote-step {
+            text-align: center;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .symbol {
+            font-size: 30px;
+            color: var(--accent);
+            font-weight: bold;
+        }
+        .btn-cta {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .remote-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <strong>PARMA</strong> ACCENDE IL FUTURO
+</header>
+
+<div class="hero">
+    <h1>Il riscaldamento del futuro è già appeso al tuo muro.</h1>
+    <p>Non serve comprare nulla. Devi solo premere un tasto.</p>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <span class="icon-large">💡</span>
+        <h2>Perché usare il condizionatore d'inverno?</h2>
+        <p>Molti pensano che il condizionatore serva solo a raffreddare. In realtà, è una <strong>Pompa di Calore</strong>: una tecnologia quasi "magica" che non <em>crea</em> calore bruciando gas, ma lo <em>sposta</em> da fuori a dentro.</p>
+        
+        <div class="highlight-box">
+            <strong>La Matematica del Risparmio:</strong><br>
+            Per ogni 1€ di elettricità che spendi, una Pompa di Calore ti restituisce circa <strong>4€ di calore</strong>.<br>
+            Una caldaia a gas, al massimo, ti dà 0,90€ di calore per ogni 1€ di gas bruciato.
+        </div>
+        <p>Questo funziona al meglio nelle "mezze stagioni" (Marzo-Aprile e Ottobre-Novembre), quando fuori ci sono tra i 5°C e i 15°C.</p>
+    </div>
+
+    <div class="card">
+        <span class="icon-large">🌿</span>
+        <h2>Aria Pulita per Parma</h2>
+        <p>Viviamo in Pianura Padana, dove l'aria ristagna. Ogni volta che accendiamo una caldaia a gas, emettiamo CO2 e particolato (PM10) direttamente nelle nostre strade.</p>
+        <p>Usare il condizionatore elettrico significa <strong>zero emissioni locali</strong>. Se 10.000 famiglie di Parma facessero questo cambio a Ottobre e Marzo, ridurremmo drasticamente la cappa di smog sulla città.</p>
+    </div>
+
+    <div class="card" id="guida">
+        <span class="icon-large">🎮</span>
+        <h2>Guida Pratica: Come fare il cambio</h2>
+        <p>Il telecomando è spesso confuso. Ecco i simboli universali da cercare:</p>
+
+        <div class="remote-grid">
+            <div class="remote-step">
+                <div class="symbol">MODE</div>
+                <h3>1. Il Tasto Magico</h3>
+                <p>Cerca il tasto "MODE" o "MASTER CONTROL". Premilo più volte.</p>
+            </div>
+            <div class="remote-step">
+                <div class="symbol">☀️ / HEAT</div>
+                <h3>2. Cerca il Sole</h3>
+                <p>Non fermarti sul fiocco di neve (❄️). Continua finché non vedi il simbolo del <strong>SOLE</strong> o la scritta <strong>HEAT</strong>.</p>
+            </div>
+            <div class="remote-step">
+                <div class="symbol">21°C</div>
+                <h3>3. La Temperatura</h3>
+                <p>Imposta 20°C o 21°C. Non serve metterlo a 30°! La pompa di calore è efficiente se mantenuta costante.</p>
+            </div>
+            <div class="remote-step">
+                <div class="symbol">⬇️</div>
+                <h3>4. Le Alette</h3>
+                <p>Punta le alette verso il <strong>basso</strong>. L'aria calda sale naturalmente, quindi devi spingerla verso il pavimento.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Domande Frequenti</h2>
+        <p><strong>Esce aria fredda all'inizio!</strong><br>
+        È normale. La macchina ha bisogno di 2-5 minuti per "preriscaldarsi". Abbi fede: arriverà il caldo.</p>
+        
+        <p><strong>L'aria sembra secca?</strong><br>
+        Il condizionatore riduce l'umidità. A Parma, dove l'umidità è alta, questo rende la casa più salubre e previene le muffe.</p>
+    </div>
+
+    <div style="text-align: center;">
+        <p>Un progetto per la sostenibilità energetica del Comune di Parma.</p>
+        <a href="#" class="btn-cta">Scarica la Guida PDF</a>
+    </div>
+
+</div>
+
+</body>
+</html>
